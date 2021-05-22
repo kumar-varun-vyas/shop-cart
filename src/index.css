@@ -96,6 +96,12 @@ a{
 .rigth{
   text-align: right;
 }
+.right button{
+  width:  5rem;
+  
+
+ 
+}
 
  .primary {
   background-color: #c0c0c0;
@@ -114,4 +120,28 @@ a{
 }
 .total  > div {
   flex: 1;
+}
+
+/*
+chackout form
+*/
+form{
+  width: 100%;
+}
+.form-container{
+  
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.form-container li{
+ 
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+input{
+  padding: .5rem;
+  border : 0.1 rem #c0c0c0 solid;
 }
