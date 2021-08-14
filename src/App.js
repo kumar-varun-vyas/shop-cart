@@ -37,8 +37,9 @@ class App extends React.Component {
     cartItems.forEach(item=>{
       if(item.id === product.id){
         item.count++;
-        alreadyInCart = true;
+        alreadyInCart = true ;
       }
+
     });
     if(!alreadyInCart){
       cartItems.push({...product, count: 1})
